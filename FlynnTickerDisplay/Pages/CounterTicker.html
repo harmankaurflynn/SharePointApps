@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- Add your CSS styles to the following file -->
+    <link rel="Stylesheet" type="text/css" href="../Content/App.css" />
+
+    <!-- Add your JavaScript to the following file -->
+    <script type="text/javascript" src="../Scripts/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../Scripts/microsoftajax.js"></script>
+    <script type="text/javascript" src="/_layouts/15/sp.runtime.js"></script>
+    <script type="text/javascript" src="/_layouts/15/sp.js"></script>
+    <script type="text/javascript" src="../Scripts/angular.min.js"></script>
+    <script type="text/javascript" src="../Scripts/App.js"></script>
+   
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div ng-app="countTickerApp" ng-controller="CountTickerController" id="count-ticker" >
+        <label ng-show="erroroccurred">{{errormessage}}</label>
+        <div class="block" ng-repeat="ticker in countTickers">
+            <span class="flip-top" id="numdays">{{ticker.count}}</span>
+
+            <span class="label">{{ticker.title}}</span>
+        </div>
+        </div>
+   
+</body>
+</html>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="a7fd5a2d-2e9c-4106-b014-0080dd4dbd1b" 
+        solutionId="a7fd5a2d-2e9c-4106-b014-0080dd4dbd1b" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="FlynnTickerDisplay"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="1d37b281-ab81-4923-95e3-f1a1bdabe147" />
+  </features>
+</package>
