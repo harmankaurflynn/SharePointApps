@@ -1,10 +1,10 @@
-﻿#count-ticker { display: block; margin-bottom: 15px;}
+﻿#count-ticker { display: block; margin-bottom: 15px; font-family: "segoe ui light", "segoe ui", segoe, tahoma, helvetica, arial, sans-serif;}
 #count-ticker .block { position: relative; color: #0c5030; font-weight: bold; float: left; margin-right: 22px; }
 
-#count-ticker .block .flip-top { width: 48px; height: 29px; line-height: 55px; font-size: 20px; text-align: center;border:thin solid grey; padding:5px;}
+#count-ticker .block .flip-top { width: 48px; height: 29px; line-height: 55px; font-size: 18px; text-align: center;border:thin solid grey; padding:5px;font-weight: bold}
 
 
-#count-ticker .block .label { color:#0c5030; font-weight: bold; font-size: 18px;  width: 88px; line-height: 35px; text-align: center; font-family: "segoe ui light", "segoe ui", segoe, tahoma, helvetica, arial, sans-serif; }
+#count-ticker .block .label { color:#0c5030; font-weight: bold; font-size: 18px;  width: 88px; line-height: 35px; text-align: center; }
 #titleAreaBox{
   display: none;
 }
